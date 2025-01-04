@@ -1,0 +1,79 @@
+body{
+    background-color: #0f0f0f;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 10%;
+}
+.fundo-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    padding: 10px;
+}
+#img-logo{
+    width: 60px;
+    height: 39px;
+}
+
+
+
+.fundo-lupamob{
+    display: flex;
+    width:50%;
+    padding: 10px;
+}
+.config-lupa{
+    display: flex;
+    width: 100%;
+    border-radius: 20px;
+}
+#input-pesquisamob{
+    padding: 10px;
+    width: 80%;
+    border: 2px solid #fccd0e;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+}
+#input-pesquisamob::placeholder{
+    color:white;
+    padding-left: 10px;
+}
+.fundo-icone-lupamob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color:#fccd0e ;
+    border: 2px solid #fccd0e;
+    color: #0f0f0f;
+    font-weight: bold;
+}
+
+
+
+.fundo-icones{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    font-size: 25px;
+}
+#icone-header-menu{
+    padding: 10px;
+}
+#icone-header-carrinho{
+    padding: 10px;
+}
