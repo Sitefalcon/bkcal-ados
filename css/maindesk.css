@@ -86,20 +86,41 @@ main{
     width: 50%;
     height: 300px;
 }
-
 .fundo-imgprodutos{
     display: flex;
     width: 100%;
     height: 190px;
+    border: 2px solid #0f0f0f;
 }
 #img-produto{
     width: 100%;
     height: 100%;
 }
 
-#fundo-inforproduto{
+.fundo-inforprodutos{
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     height: 110px;
+    border: 2px solid #0f0f0f;
+}
+#titulo-produto{
+    font-size: 18px;
+    width: 100%;
+}
+#categoria-produto{
+    font-size: 16px;
+    color: #b8b8b8;
+    font-weight: bold;
+    width: 100%;
+    margin-top:-10px ;
 }
 
+.fundo-preçoavaliaçao{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -22px;
+    padding-right: 15px;
+}
 
